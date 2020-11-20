@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnTempleShrine"
+                style="@android:style/Widget.DeviceDefault.ImageButton"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:backgroundTint="@android:color/transparent"
+                android:paddingLeft="4dp"
+                android:paddingTop="2dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="2dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/shrine_temple" />
+
+            <ImageButton
+                android:id="@+id/btnFood"
+                style="@android:style/Widget.DeviceDefault.ImageButton"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:backgroundTint="@android:color/transparent"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="2dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/japanese_food" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnPlantAnimal"
+                style="@android:style/Widget.DeviceDefault.ImageButton"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="@android:color/transparent"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="2dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/animal_plant" />
+
+            <ImageButton
+                android:id="@+id/btnHistory"
+                style="@android:style/Widget.DeviceDefault.ImageButton"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:backgroundTint="@android:color/transparent"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="2dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/history" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnTraditionalArt"
+                style="@android:style/Widget.DeviceDefault.ImageButton"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:backgroundTint="@android:color/transparent"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="2dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/traditional_art" />
+
+            <ImageButton
+                android:id="@+id/btnPopCulture"
+                style="@android:style/Widget.DeviceDefault.ImageButton"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:backgroundTint="@android:color/transparent"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="2dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/pop_culture" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

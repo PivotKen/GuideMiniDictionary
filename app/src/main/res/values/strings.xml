@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ガイド豆単</string>
+
+    <string name="temple_shrine">寺社</string>
+    <string name="food">和食</string>
+    <string name="plant_animal">動植物</string>
+    <string name="history">歴史</string>
+    <string name="traditional_art">伝統文化</string>
+    <string name="pop_culture">現代文化</string>
+
+    <string name="db_field_category">strCategory</string>
+    <string name="db_field_read">strRead</string>
+    <string name="db_field_japanese_word">strJapanese</string>
+    <string name="db_field_english_word">strEnglish</string>
+    <string name="db_field_tips">strTips</string>
+    <string name="db_field_memory_flag">isMemorized</string>
+
+    <string name="intent_key_strCategory">strCategory</string>
+    <string name="intent_key_strRead">strRead</string>
+    <string name="intent_key_strJapanese">strJapanese</string>
+    <string name="intent_key_strEnglish">strEnglish</string>
+    <string name="intent_key_strTips">strTips</string>
+    <string name="intent_key_memory_flag">strMemoryFlag</string>
+</resources>
